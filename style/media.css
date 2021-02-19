@@ -1,0 +1,218 @@
+@media screen and (max-width: 991px) {
+   /* Media navigation styles */
+   .navigation__body {
+        padding: 0 20px;
+   }
+    
+   /* About media styles */
+
+   .about__content {
+        padding: 100px 50px 0 50px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+}
+
+    .about__text {
+        margin: 0 auto 50px auto;
+        text-align: center;
+    }
+
+    /* Services media styles */
+
+    .services__body {
+        padding: 0 20px;
+    }
+
+    .services__content {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .services__title {
+        margin: 0 0 40px 0;
+    }
+
+    .services__title::after {
+        left: calc(50% - 25px);
+    }
+
+    .services__text {
+        margin-bottom: 20px;
+    }
+
+    .services__cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services__card {
+        margin-bottom: 20px;
+    }
+
+    /* Company media styles */
+
+    .company__body {
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .company__description {
+        align-items: center;
+        margin: 0 0 40px 0;
+        text-align: center;
+    }
+
+    .company__links {  
+        margin: 0 0 40px 0;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .company__navigation {
+        margin: 0 0 40px 0;
+        padding: 0;
+    }
+
+    .company__contacts {
+        margin: 0 0 40px 0;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .company__social-media {
+        margin: 0 0 40px 0;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+ 
+
+}
+
+@media screen and (max-width: 767px) {
+    /* Media header styles */
+
+    header {
+        padding: 20px 0 25px 0;
+    }
+
+    .header__title {
+        font-size: 45px;
+        line-height: 70px;
+        letter-spacing: 3px;
+    }
+
+    .header__subtitle {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    /* Media navigation styles */
+
+    nav {
+        display: none;
+    }
+
+    .gamburger {
+        display: block;
+        position: fixed;
+        top: 30px;
+        right: 15px;
+        width: 30px;
+        height: 2px;
+        background-color: #48555B;
+        cursor: pointer;
+        
+    }
+    .gamburger::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateY(-6px);
+        width: 30px;
+        height: 2px;
+        background-color: #48555B;
+    }
+
+    .gamburger::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateY(6px);
+        width: 30px;
+        height: 2px;
+        background-color: #48555B;
+    }
+
+    /* About media styles */
+    
+    .about__card {
+        width: 130px;
+        font-size: 20px;
+        
+    }
+
+    /* Services media styles */
+
+    .services__button {
+        margin-left: 0;
+    }
+
+    /* Newsletter media styles */
+
+    .newsletter__body {
+        flex-direction: column;
+    }
+
+    .newsletter__form {
+        flex-direction: column;
+    }
+
+    .newsletter__title {
+        margin: 0 0 15px 0;
+    }
+    
+    .newsletter__input {
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media screen and (max-width: 479px) {
+    /* Media header styles */
+
+    .header__text {
+        padding: 0 15px;
+        text-align: center;
+    }
+    .header__title {
+        font-size: 30px;
+        line-height: 50px;
+        letter-spacing: 2px;
+    }
+
+    .header__subtitle {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    /* About media styles */
+
+    .about__cards {
+        flex-direction: column;
+    }
+
+    .about__card {
+        margin-bottom: 20px;
+        margin-left: 0;
+        padding: 20px 20px 100px 20px;
+    }
+}
